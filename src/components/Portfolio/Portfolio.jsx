@@ -35,7 +35,7 @@ const Portfolio = () => {
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="https://stackduo-podcasts.netlify.app/">
+          <a href="http://stackduo-podcasts.s3-website.ap-south-1.amazonaws.com/">
           <img src={MusicApp} alt="" />
           </a>
         </SwiperSlide>
