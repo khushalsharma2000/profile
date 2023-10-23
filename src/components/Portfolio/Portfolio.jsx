@@ -40,7 +40,7 @@ const Portfolio = () => {
           </a>
         </SwiperSlide>
         <SwiperSlide>
-          <a href="https://shopped.onrender.com/">
+          <a href="https://shopping-store-yf0a.onrender.com/">
           <img src={HOC} alt="" />
           </a>
         </SwiperSlide>
