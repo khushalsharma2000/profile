@@ -7,6 +7,10 @@ import Ecommerce from "../../img/ecommerce.png";
 import HOC from "../../img/hoc.png";
 import banquet from "../../img/banquet.png";
 import MusicApp from "../../img/musicapp.png";
+import chatapp from "../../img/chatapp.png";
+import netflix from "../../img/netflix.png";
+import housing from "../../img/housing.png";
+import ultron from "../../img/ultron.png";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -22,6 +26,7 @@ const Portfolio = () => {
         spaceBetween={30}
         slidesPerView={3}
         grabCursor={true}
+        
         className="portfolio-slider"
       >
         <SwiperSlide>
@@ -49,6 +54,27 @@ const Portfolio = () => {
           <img src={banquet} alt="" />
           </a>
         </SwiperSlide>
+        <SwiperSlide>
+          <a href="https://khushal-chat-app.onrender.com/">
+          <img src={chatapp} alt="" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a href="https://netflix-clone-ten-ashy.vercel.app/">
+          <img src={netflix} alt="" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a href="https://housing-nextjs.vercel.app/">
+          <img src={housing} alt="" />
+          </a>
+        </SwiperSlide>
+        <SwiperSlide>
+          <a href="https://ultronfinancials.com/">
+          <img src={ultron} alt="" />
+          </a>
+        </SwiperSlide>
+
       </Swiper>
     </div>
   );
